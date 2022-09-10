@@ -1,12 +1,18 @@
 # linkedin-api
 Looking at my Linkedin Data via import linkedin_api in .ipynb
 
-## Setup
+## Get Started
+```bash
+git clone https://github.com/mattmajestic/linkedin-api.git
+cd linkedin-api
+```
+
+## Final Steps
 - Add your credentials to .env.dev file
 - rename the file to .env
 - Run the .ipynb in VS Code
 
-### Note
+### .env vars explained
 This relies on using .env variables for the following 3 elements:
 - LKD_EMAIL = Your Linkedin Email
 - LKD_PWD = Your Linkedin Password
