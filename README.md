@@ -7,14 +7,14 @@ git clone https://github.com/mattmajestic/linkedin-api.git
 cd linkedin-api
 ```
 
-## Final Steps
-- Add your credentials to .env.dev file
-- rename the file to .env
-- Run the .ipynb in VS Code
+## Final Steps Checklist
+- [ ] Add your credentials to .env.dev file
+- [ ] rename the file to .env
+- [ ] Run the .ipynb in VS Code
 
 ### .env vars explained
 This relies on using .env variables for the following 3 elements:
-- LKD_EMAIL = Your Linkedin Email
-- LKD_PWD = Your Linkedin Password
-- LKD_URL = Your unique linkedin url string 
-    - *Example*: matthew-majestic is the LKD_URL for www.linkedin.com/matthew-majestic
+- __LKD_EMAIL__ = *Your Linkedin Email*
+- __LKD_PWD__ = *Your Linkedin Password*
+- __LKD_URL__ = *Your unique linkedin url string*
+    - *Example*: matthew-majestic is the LKD_URL for www.linkedin.com/in/matthew-majestic
